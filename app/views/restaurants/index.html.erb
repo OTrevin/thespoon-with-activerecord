@@ -1,0 +1,10 @@
+<h1>All restaurants</h1>
+
+<ol>
+  <% @restaurants.each do |restaurant| %>
+  <li>
+    <%= restaurant.name %> ≈
+  </li>
+  <% end %>
+</ol>
+<!-- rails db:drop - Drop the database (lose all your data!) -->
